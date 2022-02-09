@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.header{
+    height: 45px;
+    background-color: #333333;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 12px 15px;
+}
+nav a{
+    color: #bbbbbb;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+.para p{
+    background-color: #F5F5F7;
+    text-align: center;
+    padding: 12px 20px;
+}
+.para a{
+    text-decoration: none;
+}
+.para a:hover{
+    text-decoration: underline;
+}
+
+/* -----box1------ */
+
+.box1{
+    background-color: #FBFBFD;
+    padding-top: 20px;
+}
+.para1{
+    padding-top: 40px;
+    background-image: url("./images/hero_iphone_13pro__dhnsegysa42u_medium.jpg");
+    background-size: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.para1 h1, .para1 h2, .para1 p{
+    display: flex;
+    justify-content: center;
+}
+.para1 h1{
+    font-weight: normal;
+    font-size: 400%;
+}
+.para1 h2{
+    font-weight: normal;
+    font-size: 200%;
+}
+.para1 p a{
+    font-size: 150%;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* -----box2----- */
+
+.box2{
+    background-image: url("./images/hero_watch__f05go333pz2i_medium.jpg");    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+.box2 div{
+    display: flex;
+    justify-content: center;
+}
+.box2 h6{
+    font-size: 150%;
+    color: brown;
+}
+.box2 h2{
+    font-size: 200%;
+}
+.box2 p a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 150%;
+}
+.box h6, .box2 h2, .box2 p{
+    font-weight: normal;
+}
+.row{
+    display: flex;
+}
+.row .box{
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 70px;
+    font-size: 150%;
+}
+#box1{
+    background-image: url("./images/promo_vday22__oz9b5x4x7ney_medium.jpg");
+    color: #602D62;
+}
+#box1 h6{
+    font-weight: bold;
+}
+#box1 a, #box2 a{
+    text-decoration: none;
+}
+#box2{
+    background-image: url("./images/tile_iphone_13__d9w82q7fwceq_medium.jpg");
+    color: white;
+}
+#box2{
+    padding-top: 250px;
+}
+#box2 h6{
+    font-size: large;
+    color: #F3BAE2;
+}
+#box3{
+    background-image: url("./images/tile_soip__f0c6lef982em_medium.jpg");
+}
+#box4{
+    background-image: url("./images/promo_watch_heart__dlf8uc5h0kae_medium.jpg");
+}
+#box3 a, #box4 a{
+    text-decoration: none;
+}
+#box4 p{
+    color: brown;
+    font-size: small;
+}
+
+/* -------footer------ */
+
+.footer{
+    padding: 10px 200px;
+    margin-top: 5px;
+    background-color: #F5F5F7;
+    color: #818183;
+}
+.points p{
+    margin-bottom: 10px;
+    font-size: small;
+}
+.row > ul{
+    display: flex;
+}
+.row li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+.catagory p{
+    font-size: small;
+}
+.catagory p span{
+    color: #66A1DE;
+}
+.footer > p{
+    font-size: small;
+    text-align: center;
+}
+.row b{
+    color: black;
+}
